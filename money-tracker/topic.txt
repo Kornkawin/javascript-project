@@ -1,0 +1,37 @@
+html:
+    - ul, li tag
+    - label tag for input tag
+css:
+    - declaring global CSS variables by The :root CSS pseudo-class
+    - use global CSS variables by var(<variable>)
+    - responsive: min-height
+    - Flex Items will have space between them
+        justify-content: space-between;
+    - select elements with a specific parent with (>) and with :first-of-type
+    - all the flexible items be the same length, regardless of its content
+        flex: 1;
+        text-align: center;
+    - Selects all elements with BOTH name1 AND name2 set within its class attribute by
+        .name1.name2{}
+    - Selects all elements with name2 that is a descendant of an element with name1
+        .name1 .name2{}
+    - display: inline-block vs block;
+    - specific input type selector
+        input[type="text"]
+    - remove bullet points
+        list-style-type: none;
+    - position: relative;
+        The element is positioned relative to its normal position,
+        so "left:20px" adds 20 pixels to the element's LEFT position
+    - position: absolute;
+        The element is positioned relative to its first positioned ancestor element
+    - transform: translate(x,y);
+        move in (x,y) direction
+    - fading down effect in specific time period
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    - fading up effect (with :hover selector)
+        .list li:hover .delete-btn {
+            opacity: 1;
+        }
+    -

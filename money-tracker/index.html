@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Money Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Money Tracker</h2>
+    <div class="container">
+        <h4>Balances (THB)</h4>
+        <h1 id="balance">฿0.00</h1>
+        <div class="income-expense-container">
+            <div>
+                <h4>Revenue</h4>
+                <p id="money-plus" class="money plus">฿5000</p>
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <p id="money-minus" class="money minus">(฿200)</p>
+            </div>
+        </div>
+        <h3>History</h3>
+        <ul id="list" class="list">
+            <li class="plus">Salary <span>฿50000</span>
+                <button class="delete-btn">X</button>
+            </li>
+            <li class="minus">Car Repair Expense <span>(฿400)</span>
+                <button class="delete-btn">X</button>
+            </li>
+        </ul>
+        <h3>Add Transactions</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Title</label>
+                <input type="text" name="" id="text" placeholder="specify account title">
+            </div>
+            <div class="form-control">
+                <label for="amount">Amount<br>
+                (+ Revenue, - Expense)
+                </label>
+                <input type="number" name="" id="amount" placeholder="specify amount in THB">
+            </div>
+            <button class="btn">ADD</button>
+        </form>
+    </div>
+</body>
+</html>
