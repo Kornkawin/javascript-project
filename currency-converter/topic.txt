@@ -1,0 +1,18 @@
+html:
+    - link, script
+    - div, select, input, button
+css:
+    - display: flex, flex-direction, justify-content, align-items
+    - import google fonts
+    - margin padding
+javascript:
+    - document.getElementById()
+    - element.addEventListener([type], [function])
+    - declare function
+    - fetch external api (get promise object)
+    - promise, then, json
+    - fill text by element.innerText()
+    - change value by element.value = new_val
+    - normal rounding by value.toFixed(2)
+
+
