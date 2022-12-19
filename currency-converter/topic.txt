@@ -2,9 +2,15 @@ html:
     - link, script
     - div, select, input, button
 css:
+    - box-sizing: border-box; -> more make sense to adjust later
+    - viewport unit: vh
     - display: flex, flex-direction, justify-content, align-items
     - import google fonts
     - margin padding
+    - cursor pointer
+    - The :focus selector is used to select the element that has focus.
+        It is generally triggered when the user clicks or taps
+        on an element or selects it with the keyboard's Tab key.
 javascript:
     - document.getElementById()
     - element.addEventListener([type], [function])
