@@ -34,4 +34,38 @@ css:
         .list li:hover .delete-btn {
             opacity: 1;
         }
+javascript:
+    - callback function
+    - trans.forEach((tran) => {...})
+    - transform
+        amounts = trans.map((tran) => tran.amount))
+    - reduce to one value
+        summation = amounts.reduce((sum, amt) => sum+=amt, 0)
+    - filtering
+        rev = amounts.filter(amount => amount >= 0)
+    - chaining methods
+        revenue = amounts.filter(amount => amount >= 0).reduce((sum, amount) => sum += amount, 0);
+    - add class list to element
+        item.classList.add("plus");
+    - elem.innerText = "" && elem.innerHTML = ""
+    - parent.appendChild(item)
+    - regex
+        /.../g
+            The g means Global, and causes the replace call to replace all matches,
+            not just the first one.
+        (?=...)
+            The stuff within should follow what we've matched so far,
+            but we don't actually use it after found.
+        (?!...)
+            (?!...) says that should not follow by ...
+        (\d{3})+
+            one or more groups of three digits should follow
+        (?=(\d{3})+(?!\d))
+            assert that one or more groups of three digits should follow,
+            but they should not have yet another digit following them all.
+        (\d)(?=(\d{3})+(?!\d))
+             find and capture "a number" (\d) that is followed by one or more
+             groups of three digits and does not have another digit following
+             them all. ex. 1000.00, 1000000.0000
     -
+
