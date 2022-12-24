@@ -67,5 +67,10 @@ javascript:
              find and capture "a number" (\d) that is followed by one or more
              groups of three digits and does not have another digit following
              them all. ex. 1000.00, 1000000.0000
-    -
-
+    - event.preventDefault() is used to prevent the browser from executing the default action
+      of the selected element (ex. don't want browser to refresh when submit form => UX purpose).
+    - alert(msg) for alert message in browser
+    - convert string to number by +
+        +amount will be number
+    - value from html element will be string type
+    - for click event, use onclick tag instead of elem.addEventListener()
