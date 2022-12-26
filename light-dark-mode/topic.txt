@@ -2,7 +2,9 @@ html:
     - a tag (anchor) with href="#id"
     - nav tag (navigation)
     - how to use awesome icons (CDN)
-        ref1: https://fontawesome.com/
+        ref: https://fontawesome.com/
+    - how to use unDraw.io for .svg image (illustration for each color theme)
+        ref: https://undraw.co/illustrations
 css:
     - rgb, rgba
     - use heropatterns.com for background image url
@@ -20,3 +22,19 @@ css:
         Select and style the FIRST .slider:before element that are placed immediately AFTER input:checked elements:
     - The The [attribute="value"] selector is used to select elements with a specified attribute and value.
         [data-theme="dark"] {...}
+    - scroll-behavior: smooth; for smooth scrolling behavior (UX improvement)
+javascript:
+    - document.querySelector(<...>) returns the FIRST Element within the document that matches the specified selector,
+      or group of selectors. If no matches are found, null is returned.
+    - to set dark theme
+        document.documentElement.setAttribute('data-theme', 'dark');
+    - to change image source
+        image.src = '...';
+    - to access child i of the element.
+        element.children[i]
+    - to replace class name
+        element.classList.replace('class', 'new_class');
+    - to change content
+        element.textContent = '...';
+    - for styling
+        element.style.color = '...';
