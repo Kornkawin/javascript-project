@@ -1,0 +1,22 @@
+html:
+    - a tag (anchor) with href="#id"
+    - nav tag (navigation)
+    - how to use awesome icons (CDN)
+        ref1: https://fontawesome.com/
+css:
+    - rgb, rgba
+    - use heropatterns.com for background image url
+    - section min-height for smartphone view
+    - nav with min-width for smartphone view
+    - z-index for fixed position
+        An element with greater stack order is always in front of an element with a lower stack order.
+    - text-decoration: none; to remove underline from anchor tag
+    - font-size: 1rem; for responsive font size
+    - transition: effect for sliding in time period
+    - .class.class matches any element with both classes.
+    - .class .class matches any elements of class .class that are descendants of another element with the class .class.
+    - The ::before selector inserts something before the content of each selected element(s). (CSS3 can use :before)
+    - input:checked + .slider:before
+        Select and style the FIRST .slider:before element that are placed immediately AFTER input:checked elements:
+    - The The [attribute="value"] selector is used to select elements with a specified attribute and value.
+        [data-theme="dark"] {...}
