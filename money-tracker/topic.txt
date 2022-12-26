@@ -4,7 +4,7 @@ html:
 css:
     - declaring global CSS variables by The :root CSS pseudo-class
     - use global CSS variables by var(<variable>)
-    - responsive: min-height
+    - responsive for mobile web: min-height
     - Flex Items will have space between them
         justify-content: space-between;
     - select elements with a specific parent with (>) and with :first-of-type
