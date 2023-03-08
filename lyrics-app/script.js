@@ -23,11 +23,11 @@ const searchLyrics = async (song) => {
 
 const showData = (songs) => {
     result.innerHTML = `
-        <ul class="song">
+        <ul class="songs">
             ${songs.data.map(song=>
                 `<li>
                     <span><strong>${song.artist.name}</strong> - ${song.title}</span>
-                    <button>Lyric</button>
+                    <button class="btn">Lyric</button>
                 </li>`
             ).join("")}
         </ul>
