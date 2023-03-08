@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speed Typing</title>
+    <script src="https://kit.fontawesome.com/8414448bfb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="level=btn" class="level-btn">
+        <i class="fas fa-cog"></i>
+    </button>
+    <div class="settings" id="settings">
+        <form id="level-form">
+            <label for="">Level :</label>
+            <select id="level">
+                <option value="easy">EASY</option>
+                <option value="medium">MEDIUM</option>
+                <option value="hard">HARD</option>
+            </select>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Speed Typing Game</h2>
+        <small>Practice your typing skill</small>
+        <h1 id="word">go</h1>
+        <input type="text" name="" id="text" autocomplete="off" placeholder="Type what you see ...">
+        <p class="time-container">Time 10s</p>
+        <p class="score-container">10 Scores</p>
+        <div id="gameover-container" class="gameover-container"></div>
+    </div>
+</body>
+</html>
