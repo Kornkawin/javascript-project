@@ -14,7 +14,7 @@
     </button>
     <div class="settings" id="settings">
         <form id="level-form">
-            <label for="">Level :</label>
+            <label for="level">Level :</label>
             <select id="level">
                 <option value="easy">EASY</option>
                 <option value="medium">MEDIUM</option>
@@ -23,13 +23,14 @@
         </form>
     </div>
     <div class="container">
-        <h2>Speed Typing Game</h2>
-        <small>Practice your typing skill</small>
-        <h1 id="word">go</h1>
+        <h2>Speed Typing</h2>
+        <h1 id="word" class="word">go</h1>
         <input type="text" name="" id="text" autocomplete="off" placeholder="Type what you see ...">
         <p class="time-container">Time 10s</p>
         <p class="score-container">10 Scores</p>
-        <div id="gameover-container" class="gameover-container"></div>
+        <div id="gameover-container" class="gameover-container">
+            GAME OVER
+        </div>
     </div>
 </body>
 </html>
