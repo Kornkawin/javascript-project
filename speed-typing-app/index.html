@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="level=btn" class="level-btn">
+    <button id="level-btn" class="level-btn">
         <i class="fas fa-cog"></i>
     </button>
     <div class="settings" id="settings">
@@ -26,11 +26,12 @@
         <h2>Speed Typing</h2>
         <h1 id="word" class="word">go</h1>
         <input type="text" name="" id="text" autocomplete="off" placeholder="Type what you see ...">
-        <p class="time-container">Time 10s</p>
-        <p class="score-container">10 Scores</p>
+        <p class="time-container">Time <span id="time">10</span>s</p>
+        <p class="score-container"><span id="score">10</span> Scores</p>
         <div id="gameover-container" class="gameover-container">
             GAME OVER
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
